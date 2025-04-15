@@ -6,8 +6,8 @@
   "name":"obj_jogador",
   "overriddenProperties":[],
   "parent":{
-    "name":"BOMBER IF 2025",
-    "path":"BOMBER IF 2025.yyp",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
