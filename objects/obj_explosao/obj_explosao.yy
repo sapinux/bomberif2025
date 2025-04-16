@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bomba",
+  "%Name":"obj_explosao",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_bomba",
+  "name":"obj_explosao",
   "overriddenProperties":[],
   "parent":{
     "name":"Bomba",
@@ -29,10 +29,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"spr_bomba",
-    "path":"sprites/spr_bomba/spr_bomba.yy",
+    "name":"spr_explosao",
+    "path":"sprites/spr_explosao/spr_explosao.yy",
   },
   "spriteMaskId":{
     "name":"spr_parede",
