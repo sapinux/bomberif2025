@@ -34,6 +34,9 @@
     "name":"spr_bomba",
     "path":"sprites/spr_bomba/spr_bomba.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_parede",
+    "path":"sprites/spr_parede/spr_parede.yy",
+  },
   "visible":true,
 }
