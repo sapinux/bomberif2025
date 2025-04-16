@@ -1,3 +1,5 @@
 function scr_jogador_morrendo(){
-	instance_destroy()
+	sprite_index = spr_player_dying
+	image_speed = 1
+	vivo = false
 }
