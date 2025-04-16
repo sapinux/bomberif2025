@@ -1,4 +1,4 @@
-tempo -= 1
+tempo -= 1													//contagem de tempo para explosao
 
 if !instance_exists(obj_player) id_pai = 0					//verifica se o player existe
 
