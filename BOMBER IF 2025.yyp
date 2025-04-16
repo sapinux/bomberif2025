@@ -46,6 +46,7 @@
     {"id":{"name":"r_fase_01","path":"rooms/r_fase_01/r_fase_01.yy",},},
     {"id":{"name":"scr_alinhar_na_grade","path":"scripts/scr_alinhar_na_grade/scr_alinhar_na_grade.yy",},},
     {"id":{"name":"scr_explosao","path":"scripts/scr_explosao/scr_explosao.yy",},},
+    {"id":{"name":"scr_verificar","path":"scripts/scr_verificar/scr_verificar.yy",},},
     {"id":{"name":"spr_bomba","path":"sprites/spr_bomba/spr_bomba.yy",},},
     {"id":{"name":"spr_explosao","path":"sprites/spr_explosao/spr_explosao.yy",},},
     {"id":{"name":"spr_parede","path":"sprites/spr_parede/spr_parede.yy",},},
