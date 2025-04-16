@@ -1,0 +1,1 @@
+if (place_meeting(x, y, obj_explosao)) script_execute(scr_jogador_morrendo)

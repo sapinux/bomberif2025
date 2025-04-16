@@ -1,4 +1,4 @@
-if (place_free(x-vel,y)==true) //esquerda
+if (place_free(x-vel,y)==true) || (place_meeting(x - vel, y, obj_explosao)) //esquerda
     x-=vel
 	
 if (keyboard_check(vk_up)==false)&&(keyboard_check(vk_down)==false)&&(place_meeting(x - vel, y,obj_parede)==true) {

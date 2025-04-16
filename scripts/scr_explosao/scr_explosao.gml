@@ -9,7 +9,8 @@ function scr_explosao(){
 		if place_free(x + cont_x, y + cont_y) == true instance_create_layer(x + cont_x, y + cont_y, "Players", obj_explosao)
 		else {
 			script_execute(scr_verificar)
-			break
+			if !(place_meeting(x + cont_x, y + cont_y, obj_player))
+				break
 		}
 	}
 	
@@ -21,7 +22,8 @@ function scr_explosao(){
 		if place_free(x + cont_x, y + cont_y) == true instance_create_layer(x + cont_x, y + cont_y, "Players", obj_explosao)
 		else {
 			script_execute(scr_verificar)
-			break
+			if !(place_meeting(x + cont_x, y + cont_y, obj_player))
+				break
 		}
 	}
 	
@@ -33,7 +35,8 @@ function scr_explosao(){
 		if place_free(x + cont_x, y + cont_y) == true instance_create_layer(x + cont_x, y + cont_y, "Players", obj_explosao)
 		else {
 			script_execute(scr_verificar)
-			break
+			if !(place_meeting(x + cont_x, y + cont_y, obj_player))
+				break
 		}
 	}
 	
@@ -45,7 +48,8 @@ function scr_explosao(){
 		if place_free(x + cont_x, y + cont_y) == true instance_create_layer(x + cont_x, y + cont_y, "Players", obj_explosao)
 		else {
 			script_execute(scr_verificar)
-			break
+			if !(place_meeting(x + cont_x, y + cont_y, obj_player))
+				break
 		}
 	}
 }
