@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_parede",
-  "eventList":[],
+  "%Name":"obj_planta",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_parede",
+  "name":"obj_planta",
   "overriddenProperties":[],
   "parent":{
     "name":"Fixos",
@@ -28,9 +30,12 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
+    "name":"spr_planta",
+    "path":"sprites/spr_planta/spr_planta.yy",
+  },
+  "spriteMaskId":{
     "name":"spr_parede",
     "path":"sprites/spr_parede/spr_parede.yy",
   },
-  "spriteMaskId":null,
   "visible":true,
 }

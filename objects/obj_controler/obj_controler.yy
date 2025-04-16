@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_parede",
+  "%Name":"obj_controler",
   "eventList":[],
   "managed":true,
-  "name":"obj_parede",
+  "name":"obj_controler",
   "overriddenProperties":[],
   "parent":{
-    "name":"Fixos",
-    "path":"folders/Objects/Fixos.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -26,11 +26,8 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":{
-    "name":"spr_parede",
-    "path":"sprites/spr_parede/spr_parede.yy",
-  },
+  "solid":false,
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
