@@ -12,3 +12,5 @@ if (tempo == 0) ||											//se acabar o tempo da bomba ou
 }
 
 if (place_free(x, y) == true) solid = true					//se o player estiver próximo a bomba
+
+if !(place_free(x + hspeed, y + vspeed)) speed = 0			//se não haver caminho livre a bomba para
