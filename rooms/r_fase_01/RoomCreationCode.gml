@@ -1,15 +1,44 @@
 //distribuir icones de bonus
-cont = 0
-for (i = 0; i < (instance_number(obj_planta)); i++) i2[i] = 0
+randomize()												//evitar que o random repita os mesmos valores
 
-//distribuir bombas
+//preencher a variavel cont_i[i] com o valor 'false' com base na quantidade de objetos 'obj_planta'
+for (i = 0; i < (instance_number(obj_planta)); i++) cont_i[i] = false
+
+//distribuir icones de bombas
+cont = 0
 do {
-	i = round(random(instance_number(obj_planta)-1))
-	if i2[i] == 0 {
-		i2[i] = 1
+	i = irandom(instance_number(obj_planta)-1)
+	if !cont_i[i] {
+		cont_i[i] = true								//verifica se o vetor ainda nao recebeu valor true
 		i = instance_find(obj_planta, i)
 		instance_create_layer(i.x, i.y, "Bonus", obj_bonus_bomba)
 		cont ++
 	}	
 }
-until (cont == 10)
+until (cont == 10)										//quantidade de icones de bombas
+
+//distribuir icones de poder bomba
+cont = 0
+do {
+	i = irandom(instance_number(obj_planta)-1)
+	if !cont_i[i] {										//verifica se o vetor ainda nao recebeu valor true
+		cont_i[i] = true
+		i = instance_find(obj_planta, i)
+		instance_create_layer(i.x, i.y, "Bonus", obj_bonus_poder_bomba)
+		cont ++
+	}	
+}
+until (cont == 10)										//quantidade de icones de poder bomba
+
+//distribuir icones de chutar bomba
+cont = 0
+do {
+	i = irandom(instance_number(obj_planta)-1)
+	if !cont_i[i] {										//verifica se o vetor ainda nao recebeu valor true
+		cont_i[i] = true
+		i = instance_find(obj_planta, i)
+		instance_create_layer(i.x, i.y, "Bonus", obj_bonus_chutar_bomba)
+		cont ++
+	}	
+}
+until (cont == 4)										//quantidade de icones de chutar bomba

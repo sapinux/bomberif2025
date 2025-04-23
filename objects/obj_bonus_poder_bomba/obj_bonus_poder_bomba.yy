@@ -33,9 +33,6 @@
     "name":"spr_bonus_poder_bomba",
     "path":"sprites/spr_bonus_poder_bomba/spr_bonus_poder_bomba.yy",
   },
-  "spriteMaskId":{
-    "name":"spr_parede",
-    "path":"sprites/spr_parede/spr_parede.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

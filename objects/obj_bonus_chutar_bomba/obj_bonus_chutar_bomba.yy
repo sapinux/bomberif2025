@@ -33,6 +33,9 @@
     "name":"spr_bonus_chutar_bomba",
     "path":"sprites/spr_bonus_chutar_bomba/spr_bonus_chutar_bomba.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_parede",
+    "path":"sprites/spr_parede/spr_parede.yy",
+  },
   "visible":true,
 }
