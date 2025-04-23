@@ -1,7 +1,8 @@
 if vivo {	
 	//direita
-	if (place_free(x+vel,y)==true) || (place_meeting(x + vel, y, obj_explosao)) 
-	   x += vel
+	if !place_meeting(x + vel, y, obj_planta)		//se não houver planta	
+		if (place_free(x + vel , y)==true) || (place_meeting(x + vel, y, obj_explosao)) 
+		   x += vel
 	   
    //deslizar na quina da parede
 	if (keyboard_check(vk_up)==false)&&(keyboard_check(vk_down)==false)&&(place_meeting(x + vel, y, obj_parede)==true) {
