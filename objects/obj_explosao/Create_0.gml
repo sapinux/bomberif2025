@@ -1,1 +1,1 @@
-tempo_vida = 15
+tempo_vida = 15			//duracao da explosao 
