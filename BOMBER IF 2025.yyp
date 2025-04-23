@@ -64,7 +64,7 @@
     {"id":{"name":"spr_explosao","path":"sprites/spr_explosao/spr_explosao.yy",},},
     {"id":{"name":"spr_parede","path":"sprites/spr_parede/spr_parede.yy",},},
     {"id":{"name":"spr_planta","path":"sprites/spr_planta/spr_planta.yy",},},
-    {"id":{"name":"spr_player_dying","path":"sprites/spr_player_dying/spr_player_dying.yy",},},
+    {"id":{"name":"spr_player_morrendo","path":"sprites/spr_player_morrendo/spr_player_morrendo.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
   ],
   "resourceType":"GMProject",
