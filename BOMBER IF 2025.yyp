@@ -62,6 +62,7 @@
     {"id":{"name":"spr_bomba","path":"sprites/spr_bomba/spr_bomba.yy",},},
     {"id":{"name":"spr_bonus_bomba","path":"sprites/spr_bonus_bomba/spr_bonus_bomba.yy",},},
     {"id":{"name":"spr_bonus_chutar_bomba","path":"sprites/spr_bonus_chutar_bomba/spr_bonus_chutar_bomba.yy",},},
+    {"id":{"name":"spr_bonus_luva","path":"sprites/spr_bonus_luva/spr_bonus_luva.yy",},},
     {"id":{"name":"spr_bonus_poder_bomba","path":"sprites/spr_bonus_poder_bomba/spr_bonus_poder_bomba.yy",},},
     {"id":{"name":"spr_explosao","path":"sprites/spr_explosao/spr_explosao.yy",},},
     {"id":{"name":"spr_parede","path":"sprites/spr_parede/spr_parede.yy",},},
