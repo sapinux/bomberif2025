@@ -42,3 +42,16 @@ do {
 	}	
 }
 until (cont == 4)										//quantidade de icones de chutar bomba
+
+//distribuir icones de luva
+cont = 0
+do {
+	i = irandom(instance_number(obj_planta)-1)
+	if !cont_i[i] {										//verifica se o vetor ainda nao recebeu valor true
+		cont_i[i] = true
+		i = instance_find(obj_planta, i)
+		instance_create_layer(i.x, i.y, "Bonus", obj_bonus_luva)
+		cont ++
+	}	
+}
+until (cont == 2)										//quantidade de icones de chutar bomba

@@ -8,7 +8,7 @@ if (tempo == 0) ||											//se acabar o tempo da bomba ou
 		script_execute(scr_alinhar_na_grade)				//alinha a bomba na grade
 		script_execute(scr_explosao)						//cria a explosao
 	
-		instance_destroy()
+		instance_destroy()	
 }
 
 if (place_free(x, y) == true) solid = true					//se o player estiver próximo a bomba
