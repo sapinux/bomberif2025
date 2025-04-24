@@ -1,4 +1,4 @@
-//if (place_meeting(x, y, obj_player)){
-//	instance_nearest(x, y, obj_player).poder_bomba += 1
-//	instance_destroy()
-//}
+//colidir com fogo ou bomba
+if (place_meeting(x,y,obj_bomba)==true)
+|| (place_meeting(x,y,obj_explosao) && !(place_meeting(x,y,obj_planta)))
+   instance_destroy()

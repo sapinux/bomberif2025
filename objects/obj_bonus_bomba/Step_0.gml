@@ -1,9 +1,4 @@
-//if (place_meeting(x, y, obj_player)){
-//	instance_nearest(x, y, obj_player).bombas += 1
-//	instance_destroy()
-//}
-
-//continuar, corrigir erro que o bonus é destruido pelo fogo
+//colidir com fogo ou bomba
 if (place_meeting(x,y,obj_bomba)==true)
- ||((place_meeting(x,y,obj_explosao)==true)&&(place_meeting(x,y,obj_planta)==false))
+|| (place_meeting(x,y,obj_explosao) && !(place_meeting(x,y,obj_planta)))
    instance_destroy()

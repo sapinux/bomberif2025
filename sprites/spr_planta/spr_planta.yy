@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Destrutiveis",
-    "path":"folders/Sprites/Fixos/Destrutiveis.yy",
+    "name":"Planta",
+    "path":"folders/Sprites/Fixos/Destrutiveis/Planta.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
