@@ -41,6 +41,7 @@
     {"$GMObjectProperty":"v1","%Name":"poder_bomba","filters":[],"listItems":[],"multiselect":false,"name":"poder_bomba","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"chutar_bomba","filters":[],"listItems":[],"multiselect":false,"name":"chutar_bomba","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"vivo","filters":[],"listItems":[],"multiselect":false,"name":"vivo","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"luva","filters":[],"listItems":[],"multiselect":false,"name":"luva","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

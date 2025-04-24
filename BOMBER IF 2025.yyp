@@ -45,6 +45,7 @@
   },
   "name":"BOMBER IF 2025",
   "resources":[
+    {"id":{"name":"obj_bomba_pulando","path":"objects/obj_bomba_pulando/obj_bomba_pulando.yy",},},
     {"id":{"name":"obj_bomba","path":"objects/obj_bomba/obj_bomba.yy",},},
     {"id":{"name":"obj_bonus_bomba","path":"objects/obj_bonus_bomba/obj_bonus_bomba.yy",},},
     {"id":{"name":"obj_bonus_chutar_bomba","path":"objects/obj_bonus_chutar_bomba/obj_bonus_chutar_bomba.yy",},},
@@ -60,6 +61,7 @@
     {"id":{"name":"scr_explosao","path":"scripts/scr_explosao/scr_explosao.yy",},},
     {"id":{"name":"scr_jogador_morrendo","path":"scripts/scr_jogador_morrendo/scr_jogador_morrendo.yy",},},
     {"id":{"name":"scr_verificar","path":"scripts/scr_verificar/scr_verificar.yy",},},
+    {"id":{"name":"spr_bomba_pulando","path":"sprites/spr_bomba_pulando/spr_bomba_pulando.yy",},},
     {"id":{"name":"spr_bomba","path":"sprites/spr_bomba/spr_bomba.yy",},},
     {"id":{"name":"spr_bonus_bomba","path":"sprites/spr_bonus_bomba/spr_bonus_bomba.yy",},},
     {"id":{"name":"spr_bonus_chutar_bomba","path":"sprites/spr_bonus_chutar_bomba/spr_bonus_chutar_bomba.yy",},},
