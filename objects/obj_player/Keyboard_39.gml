@@ -1,8 +1,13 @@
 if vivo {	
+	sprite_index = spr_player_parado_dir
+	
 	//direita
 	if !place_meeting(x + vel, y, obj_planta)		//se não houver planta	
-		if (place_free(x + vel , y)==true) || (place_meeting(x + vel, y, obj_explosao)) 
+		if (place_free(x + vel , y)==true) || (place_meeting(x + vel, y, obj_explosao)) {
 		   x += vel
+			//carregar sprite
+			sprite_index = spr_player_andando_dir
+		}
 	   
    //deslizar na quina da parede
 	if (keyboard_check(vk_up)==false)&&(keyboard_check(vk_down)==false)&&(place_meeting(x + vel, y, obj_parede)==true) {
