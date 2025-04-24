@@ -4,3 +4,4 @@ poder_bomba = 2			//alcance da explosao
 vivo = true				//situacao de vida
 chutar_bomba = false	//poder de chutar a bomba
 luva = false			//poder de lancar a bomba
+direcao = "baixo"		//direcao onde o jogaor esta apontando

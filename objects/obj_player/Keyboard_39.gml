@@ -1,4 +1,5 @@
 if vivo {	
+	direcao = "direita"
 	sprite_index = spr_player_parado_dir
 	
 	//direita

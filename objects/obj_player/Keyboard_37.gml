@@ -1,5 +1,5 @@
 if vivo {
-	
+	direcao = "esquerda"
 	sprite_index = spr_player_parado_esq
 	
 	//esquerda

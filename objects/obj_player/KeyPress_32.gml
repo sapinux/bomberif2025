@@ -11,7 +11,10 @@ if vivo {
 	} else {
 		//se estiver sobre uma bomba e possuir a luva
 		if (place_meeting(x ,y , obj_bomba) && luva) {
-			instance_create_layer(x ,y , "Action", obj_bomba_pulando)
+			var bomba_pulando = instance_create_layer(x ,y , "Action", obj_bomba_pulando)
+			with (bomba_pulando) {
+				direcao = "cima" //other.direcao
+			}
 		}
 	}
 }

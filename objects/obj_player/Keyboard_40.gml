@@ -1,4 +1,5 @@
 if vivo {
+	direcao = "baixo"
 	sprite_index = spr_player_parado_baixo
 	//cima
 	if !place_meeting(x , y + vel, obj_planta)		//se não houver planta	
