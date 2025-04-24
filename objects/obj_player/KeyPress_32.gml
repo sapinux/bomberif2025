@@ -13,7 +13,21 @@ if vivo {
 		if (place_meeting(x ,y , obj_bomba) && luva) {
 			var bomba_pulando = instance_create_layer(x ,y , "Action", obj_bomba_pulando)
 			with (bomba_pulando) {
-				direcao = "cima" //other.direcao
+				//direcao = //other.direcao
+				switch (other.direcao) {
+					case "cima":
+						vspeed = -4
+						break
+					case "baixo":
+						vspeed = 4
+						break
+					case "esquerda":
+						hspeed = -4
+						break
+					case "direita":
+						hspeed = 4
+						break
+				}
 			}
 		}
 	}
