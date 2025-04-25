@@ -1,7 +1,8 @@
+//obs: variaveis globais sao definidas no obj_game_config
 vel = global.player_velocidade;			//velocidade em pixels
 bombas = global.bombas					//quantidade  de bombas
-poder_bomba = 2							//alcance da explosao
+poder_bomba = global.poder_bomba		//alcance da explosao
 vivo = true								//situacao de vida
-chutar_bomba = false					//poder de chutar a bomba
-luva = true								//poder de lancar a bomba
+chutar_bomba = global.chutar_bomba		//poder para chutar a bomba
+luva = global.luva						//poder para lancar a bomba
 direcao = "baixo"						//direcao onde o jogaor esta apontando
