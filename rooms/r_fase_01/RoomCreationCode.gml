@@ -10,8 +10,8 @@ do {
 	i = irandom(instance_number(obj_planta)-1)
 	if !cont_i[i] {
 		cont_i[i] = true								//verifica se o vetor ainda nao recebeu valor true
-		i = instance_find(obj_planta, i)
-		instance_create_layer(i.x, i.y, "Bonus", obj_bonus_bomba)
+		obj = (instance_find(obj_planta, i))
+		instance_create_layer(obj.x, obj.y, "Bonus", obj_bonus_bomba)
 		cont ++
 	}	
 }
@@ -23,8 +23,8 @@ do {
 	i = irandom(instance_number(obj_planta)-1)
 	if !cont_i[i] {										//verifica se o vetor ainda nao recebeu valor true
 		cont_i[i] = true
-		i = instance_find(obj_planta, i)
-		instance_create_layer(i.x, i.y, "Bonus", obj_bonus_poder_bomba)
+		obj = instance_find(obj_planta, i)
+		instance_create_layer(obj.x, obj.y, "Bonus", obj_bonus_poder_bomba)
 		cont ++
 	}	
 }
@@ -36,8 +36,8 @@ do {
 	i = irandom(instance_number(obj_planta)-1)
 	if !cont_i[i] {										//verifica se o vetor ainda nao recebeu valor true
 		cont_i[i] = true
-		i = instance_find(obj_planta, i)
-		instance_create_layer(i.x, i.y, "Bonus", obj_bonus_chutar_bomba)
+		obj = instance_find(obj_planta, i)
+		instance_create_layer(obj.x, obj.y, "Bonus", obj_bonus_chutar_bomba)
 		cont ++
 	}	
 }
@@ -49,8 +49,8 @@ do {
 	i = irandom(instance_number(obj_planta)-1)
 	if !cont_i[i] {										//verifica se o vetor ainda nao recebeu valor true
 		cont_i[i] = true
-		i = instance_find(obj_planta, i)
-		instance_create_layer(i.x, i.y, "Bonus", obj_bonus_luva)
+		obj = instance_find(obj_planta, i)
+		instance_create_layer(obj.x, obj.y, "Bonus", obj_bonus_luva)
 		cont ++
 	}	
 }
