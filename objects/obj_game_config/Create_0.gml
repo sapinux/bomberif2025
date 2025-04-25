@@ -6,4 +6,4 @@ global.poder_bomba = 5			//poder de explosao da bomba
 global.chutar_bomba = true		//poder para chutar a bomba
 global.luva = true				//poder para lancar a bomba
 
-instance_create_layer(144 ,128, "Players", obj_player)	//criar o player
+//instance_create_layer(144 ,128, "Players", obj_player)	//criar o player
