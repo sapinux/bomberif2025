@@ -1,5 +1,5 @@
-//se esse objeto encontrar um local vago ou explosao
-if (place_free(x, y) || place_meeting(x, y, obj_explosao)) {
+//se esse objeto encontrar um local vago
+if (place_free(x, y)) {
 	
 	var bomba = instance_create_layer(x + hspeed,y + vspeed, "Action", obj_bomba)
 	with (bomba) {
@@ -9,6 +9,13 @@ if (place_free(x, y) || place_meeting(x, y, obj_explosao)) {
 	}
 	instance_destroy();
 }
+
+//se encontrar uma explosao o mesmo se destroi
+if place_meeting(x + hspeed, y + vspeed, obj_explosao) {
+		if (id_pai) != 0 id_pai.bombas ++					//devolve a bomba para o player
+		instance_destroy()
+} 
+
 
 if (vspeed > 0) && (y + 5 >= room_height) y = 0		//bomba atravessa o limite inferior do cenario
 if (vspeed < 0) && (y <= 0) y = room_height			//bomba atravessa o limite superior do cenario
