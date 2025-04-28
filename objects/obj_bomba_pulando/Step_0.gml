@@ -12,6 +12,7 @@ if (place_free(x, y)) {
 
 //se encontrar uma explosao o mesmo se destroi
 if place_meeting(x + hspeed, y + vspeed, obj_explosao) {
+		//if instance_exists(obj_player) id_pai.bombas ++
 		if (id_pai) != 0 id_pai.bombas ++					//devolve a bomba para o player
 		instance_destroy()
 } 

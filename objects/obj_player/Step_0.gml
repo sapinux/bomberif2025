@@ -6,3 +6,4 @@ if (sprite_index == spr_player_morrendo) && (image_index>=4) {
 //se a explosao atingir o player
 if (place_meeting(x, y, obj_explosao)) && vivo										
 		script_execute(scr_jogador_morrendo)	//aciona o sprite de morte
+

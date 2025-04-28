@@ -6,7 +6,25 @@ for (var i = 0; i < opcoes_max; i ++) {
 	if (i == indice) draw_set_color(c_yellow)
 	else draw_set_color(c_white)
 	
-	draw_text(room_width / 2, (room_height / 2 - 25) + (20 * i), opcoes[i])	//desenhar o texto
+	switch (opcoes[i]) {
+		case "Bombas":
+			teste = " < " + string(global.bombas) + " >"
+			break
+		case "Luva":
+			teste = " < " + string(global.luva) + " >"
+			break
+		case "Chutar Bomba":
+			teste = " < " + string(global.chutar_bomba) + " >"
+			break
+		case "Poder da Bomba":
+			teste = " < " + string(global.poder_bomba) + " >"
+			break
+		case "Voltar":
+			teste = " "
+			break
+	}
+	
+	draw_text(room_width / 2, (room_height / 2 - 35) + (20 * i), opcoes[i] + teste)	//desenhar o texto
 	
 	 
 	
