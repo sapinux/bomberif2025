@@ -5,4 +5,5 @@ poder_bomba = global.poder_bomba		//alcance da explosao
 vivo = true								//situacao de vida
 chutar_bomba = global.chutar_bomba		//poder para chutar a bomba
 luva = global.luva						//poder para lancar a bomba
-direcao = "baixo"		
+direcao = "baixo"						//direcao padrao do player
+global.id_pai = id						//player criador da bomba

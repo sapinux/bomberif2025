@@ -1,6 +1,6 @@
 tempo -= 1													//contagem de tempo para explosao
 
-if !instance_exists(obj_player) id_pai = 0					//verifica se o player existe
+if global.id_pai == 0 id_pai = 0							//verifica se o id possui valor
 
 if (tempo == 0) ||											//se acabar o tempo da bomba ou
    (place_meeting(x + hspeed, y + vspeed, obj_explosao)) {	//colidir com uma explosao

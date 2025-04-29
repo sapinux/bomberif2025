@@ -1,6 +1,6 @@
 //quando concluir a animacao de morte
 if (sprite_index == spr_player_morrendo) && (image_index>=4) {
-	
+	global.id_pai = 0
 	instance_destroy()
 }	
 //se a explosao atingir o player
