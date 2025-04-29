@@ -25,7 +25,4 @@ for (var i = 0; i < opcoes_max; i ++) {
 	}
 	
 	draw_text(room_width / 2 + 20, (room_height / 2 - 35) + (20 * i), opcoes[i] + valor)	//desenhar o texto
-	
-	 
-	
 }
