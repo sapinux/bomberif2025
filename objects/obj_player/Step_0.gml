@@ -1,5 +1,5 @@
 //quando concluir a animacao de morte
-if (sprite_index == spr_player_morrendo) && (image_index>=4) {
+if (sprite_index == spr_red_morrendo) && (image_index>=4) {
 	global.id_pai = 0
 	instance_destroy()
 }	

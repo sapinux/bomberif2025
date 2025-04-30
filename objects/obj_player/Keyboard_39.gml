@@ -1,6 +1,6 @@
 if vivo {	
 	direcao = "direita"
-	sprite_index = spr_player_parado_dir
+	sprite_index = spr_red_parado_dir
 	
 	//direita
 	if !place_meeting(x + vel, y, obj_planta)		//se não houver planta	

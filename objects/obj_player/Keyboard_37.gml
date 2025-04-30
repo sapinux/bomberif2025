@@ -1,12 +1,12 @@
 if vivo {
 	direcao = "esquerda"
-	sprite_index = spr_player_parado_esq
+	sprite_index = spr_red_parado_esq
 	
 	//esquerda
 	if !place_meeting(x - vel, y, obj_planta) 		//se não houver planta
 		if (place_free(x - vel, y)) || (place_meeting(x - vel, y, obj_explosao)) { 
 			x -= vel								
-			sprite_index = spr_player_andando_esq	//carregar sprite
+			sprite_index = spr_red_andando_esq	//carregar sprite
 		} 
 		
 	//deslizar na quina da parede
