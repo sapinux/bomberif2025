@@ -1,6 +1,0 @@
-//draw_sprite(spr_blue,0, 140, 120)
-//draw_sprite(spr_green,0, 170, 120)
-//draw_sprite(spr_pink,0, 200, 120)
-//draw_sprite(spr_orange,0, 140, 160)
-//draw_sprite(spr_player ,0, 170, 160)
-//draw_sprite(spr_purple,0, 200, 160)
