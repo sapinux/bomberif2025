@@ -6,7 +6,7 @@ if vivo {
 	if !place_meeting(x + vel, y, obj_planta)		//se não houver planta	
 		if (place_free(x + vel , y)) || (place_meeting(x + vel, y, obj_explosao)) {
 			x += vel
-			sprite_index = spr_player_andando_dir	//carregar sprite
+			sprite_index = spr_red_andando_dir	//carregar sprite
 		}
 	   
    //deslizar na quina da parede
