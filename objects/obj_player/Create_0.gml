@@ -9,4 +9,4 @@ direcao = "baixo"						//direcao padrao do player
 global.id_pai = id						//player criador da bomba
 imagem = []								//vetor para alocar os sprites do player
 script_execute(scr_carregar_sprites)	//carregar sprites no vetor
-sprite_index = imagem[0]				//carrega sprite basica
+sprite_index = imagem[1]				//carrega sprite basica

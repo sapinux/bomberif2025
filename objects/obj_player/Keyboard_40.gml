@@ -1,11 +1,11 @@
 if vivo {
 	direcao = "baixo"
-	sprite_index = spr_red_parado_baixo
+	sprite_index = imagem[1]
 	//cima
 	if !place_meeting(x , y + vel, obj_planta)		//se não houver planta	
 		if (place_free(x , y + vel)) || (place_meeting(x, y + vel, obj_explosao)) {
 			y += vel
-			sprite_index = spr_red_andando_baixo	//carregar sprite
+			sprite_index = imagem[5]	//carregar sprite
 		}
 	   
     //deslizar na quina da parede
