@@ -50,6 +50,9 @@
     "name":"spr_red",
     "path":"sprites/spr_red/spr_red.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_parede",
+    "path":"sprites/spr_parede/spr_parede.yy",
+  },
   "visible":true,
 }
