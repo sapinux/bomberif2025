@@ -34,9 +34,6 @@
     "name":"spr_explosao",
     "path":"sprites/spr_explosao/spr_explosao.yy",
   },
-  "spriteMaskId":{
-    "name":"spr_parede",
-    "path":"sprites/spr_parede/spr_parede.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }
